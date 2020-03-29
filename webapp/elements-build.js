@@ -7,10 +7,10 @@ const replace = require('replace-in-file');
     './dist/webapp/main-es2015.js',
     './dist/webapp/styles-es2015.js',
   ];
-  await concat(files, `../firefox-addon/src/angularBuild.js`);
+  await concat(files, `../extension/src/angularBuild.js`);
 
   const options = {
-    files: '../firefox-addon/src/angularBuild.js',
+    files: '../extension/src/angularBuild.js',
     from: /webpackJsonp/g,
     to: 'webpackJsonp2',
   };
