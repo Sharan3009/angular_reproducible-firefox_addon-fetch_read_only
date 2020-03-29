@@ -22,3 +22,20 @@ This repo is to reproduce the TypeError: "fetch" is read-only in firefox addon o
 
 - Now go to any `github.com` url and refresh the page. If everything worked out, you should be able to see a `draggable element` injected in the page as shown below.
 ![](screenshots/drag_chrome.png)
+
+### Instructions to load extension in firefox.
+- Go to `about:debugging` and click on `This Firefox`.
+![](screenshots/this_firefox.png)
+
+- You will see a button `Load Temporary Add-on...`. Click on that.
+
+- Browse to the cloned folder and go to the `extension` folder. Now click on `index.html` and click `Open`.
+![](screenshots/addon_folder.png)
+
+- Now your extension should be loaded as `Angular-Elements example`.
+![](screenshots/addon_loaded.png)
+
+- Now go to any `github.com` url and refresh the page. If everything worked out, you should be able to see a `draggable element` injected in the page
+
+- TODO: But there is no element injected by the addon. To check the error, open the console of the github page that is opened. There you will see the error.
+![](screenshots/firefox_error.png)
