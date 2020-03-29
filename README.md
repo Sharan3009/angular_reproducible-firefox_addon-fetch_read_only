@@ -9,7 +9,7 @@ This repo is to reproduce the TypeError: "fetch" is read-only in firefox addon o
 ### Instructions to load extension in chrome.
 - Go to `chrome://extensions`
 
-- Make sure your `developer mode` is on in chrome. If not you can enable it by toggling the button at top right of the page.
+- Make sure your `developer mode` is switched on. If not you can enable it by toggling the button at top right of the page.
 ![](screenshots/developer_mode.png)
 
 - After enabling the `developer mode`. You will be able to see 3 options to load the local build of the extension. Click on `Load unpacked` as shown in the above screenshot.
